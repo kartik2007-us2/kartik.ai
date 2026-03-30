@@ -57,7 +57,7 @@ def takeCommand():
 
 
 
-# client = OpenAI(api_key="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")
+# client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 #
 #
 # def ask_ai(question):
@@ -146,7 +146,7 @@ if __name__ == '__main__':
         #
         # from openai import OpenAI
         #
-        # client = OpenAI(api_key="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")
+        # client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
         #
         # response = client.chat.completions.create(
         #     model="gpt-4o-mini",
